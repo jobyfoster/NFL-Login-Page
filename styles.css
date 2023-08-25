@@ -1,0 +1,223 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+
+  font-family: "Roboto", sans-serif;
+}
+
+#site-content-container {
+  background: url(https://static.www.nfl.com/f_auto,q_auto/league/apps/league-site/image/Onboarding-32Teams.svg)
+    center top / cover no-repeat rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+}
+
+#sign-in-card {
+  background-color: #ffffff;
+  margin: 6em auto;
+
+  width: 28em;
+
+  border-radius: 0.2em;
+}
+
+#nav-tab {
+  margin: 0 0 30px;
+  padding: 1px;
+  display: flex;
+
+  list-style-type: disc;
+}
+
+.option-buttons {
+  display: inline-block;
+
+  padding: 20px 0;
+  cursor: pointer;
+  align-content: center;
+  text-align: center;
+  flex-grow: 1;
+  border-bottom: 1px solid #aaa;
+}
+
+.selected {
+  border-bottom: 3px solid #1c48e1;
+  color: #1c48e1;
+  border-radius: 5px 5px 0 0;
+}
+
+#login-content {
+  width: 80%;
+  text-align: center;
+  margin: 2em auto;
+
+  margin-bottom: 1em;
+
+  letter-spacing: 0.5px;
+}
+
+#welcome-content {
+  color: rgba(51, 51, 51, 1);
+}
+
+#nfl-logo-top {
+  border-right: #aaa 1px solid;
+}
+
+.logo-imgs {
+  padding: 0.8em 1.2em;
+}
+
+#welcome-back {
+  margin-top: 10px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+#sign-in-details {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#sign-in-with {
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 20px;
+}
+
+#sign-in-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.sign-in-buttons {
+  border: #ddd 1px solid;
+  border-radius: 5px;
+  background-color: white;
+  margin: 0.5em 0.7em;
+  padding: 10px;
+}
+
+.sign-in-buttons {
+  cursor: pointer;
+}
+
+.sign-in-images {
+  width: 25px;
+  height: 25px;
+}
+
+#or-container {
+  margin-top: 16px;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+}
+
+.custom-hr {
+  background-color: rgba(0, 0, 0, 1);
+  height: 1px;
+  flex: 1;
+}
+
+#or {
+  text-align: center;
+  width: 64px;
+  color: rgba(51, 51, 51, 1);
+  font-size: 14px;
+  line-height: 24px;
+}
+
+#form {
+  text-align: left;
+  margin-top: 16px;
+}
+
+.form-input {
+  margin-top: 16px;
+}
+
+.input-label {
+  color: rgba(117, 117, 117, 1);
+  margin-bottom: 8px;
+
+  font-size: 12px;
+  width: 20em;
+}
+
+.sign-in-input {
+  line-height: 40px;
+  height: 40px;
+  font-size: 14px;
+
+  padding: 0 15px;
+
+  border-radius: 4px;
+  border: 1px rgba(123, 123, 123, 1) solid;
+}
+
+#sign-in-button {
+  margin: 16px 0;
+  padding: 16px 0;
+  width: 100%;
+  border: 2px rgba(204, 204, 204, 1) solid;
+
+  border-radius: 30px;
+  justify-content: center;
+  min-height: auto;
+
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.24);
+
+  background-color: lightgray;
+}
+
+#sign-in-button:hover {
+  background-color: #dd5353;
+  color: white;
+}
+
+#forgot-password {
+  margin-bottom: 0px;
+  color: rgba(27, 72, 224, 1);
+
+  text-align: center;
+
+  font-size: 14px;
+}
+
+#forgot-password:hover {
+  cursor: pointer;
+}
+
+#select-lang-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#select-lang {
+  margin: 0 auto;
+
+  border-width: unset;
+  border-style: unset;
+  border-radius: 32px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 14px;
+  height: 40px;
+  padding-left: 16px;
+  padding-right: 34px;
+}

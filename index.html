@@ -6,6 +6,99 @@
     <title>NFL Account Sign In</title>
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body></body>
+  <body>
+    <div id="site-content-container">
+      <div id="sign-in-card">
+        <ul id="nav-tab">
+          <li class="option-buttons">Sign Up</li>
+          <li class="option-buttons selected">Sign In</li>
+        </ul>
+        <div id="login-content">
+          <div id="welcome-content">
+            <img
+              src="images/nvfr7ogywskqrfaiu38m.webp"
+              height="85"
+              draggable="false"
+              class="logo-imgs"
+              id="nfl-logo-top"
+            />
+            <img
+              src="images/fantasy-logo.webp"
+              draggable="false"
+              height="85"
+              class="logo-imgs"
+            />
+            <div id="welcome-back"><strong>Welcome Back</strong></div>
+            <div id="sign-in-details">Sign in with your email and password</div>
+            <div id="sign-in-with">Sign in with</div>
+            <div id="sign-in-options">
+              <button class="sign-in-buttons">
+                <img class="sign-in-images" src="images/signin_facebook.webp" />
+              </button>
+              <button class="sign-in-buttons">
+                <img src="images/signin_google.webp" />
+              </button>
+              <button class="sign-in-buttons">
+                <img src="images/signin_apple.webp" />
+              </button>
+            </div>
+          </div>
+          <div id="or-container">
+            <div class="custom-hr"></div>
+            <span id="or">or</span>
+            <div class="custom-hr"></div>
+          </div>
+
+          <div id="form" action="welcome.html">
+            <div class="form-input">
+              <label class="input-label" for="email">Email</label><br />
+              <input
+                class="sign-in-input"
+                type="email"
+                name="email"
+                placeholder="Enter email address"
+                size="40"
+                required
+              />
+            </div>
+            <div class="form-input">
+              <label class="input-label" for="password">Password</label><br />
+              <input
+                class="sign-in-input"
+                type="password"
+                name="password"
+                placeholder="Enter password"
+                size="40"
+                required
+              />
+            </div>
+            <button id="sign-in-button" onclick="alert('Sign in')">
+              <strong>Sign In</strong>
+            </button>
+          </div>
+          <a id="forgot-password" onclick="alert('Forgot password')"
+            ><strong>Forgot password?</strong></a
+          >
+        </div>
+        <div id="select-lang-container">
+          <select id="select-lang" name="select-lang">
+            <option value="en">EN</option>
+            <option value="en">ES</option>
+            <option value="en">JA</option>
+            <option value="en">DE</option>
+            <option value="en">PT</option>
+            <option value="en">FR</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
